@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">BibliothequeMobile</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_changer_mot_passe">ChangerMotPasseActivity</string>
+    <string name="title_activity_rechercher">RechercherActivity</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_parametres_compte">ParametresCompteActivity</string>
+    <string name="title_activity_reservation">ReservationActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_reservation_rare">ReservationRareActivity</string>
+    <string name="title_activity_faire_reservation">FaireReservationActivity</string>
+    <string name="title_activity_faire_reservation_rare">FaireReservationRareActivity</string>
+    <string name="title_activity_modal_periode">modalPeriodeActivity</string>
+    <string name="title_activity_modal_date">modalDateActivity</string>
 </resources>

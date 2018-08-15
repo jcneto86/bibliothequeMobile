@@ -16,6 +16,49 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".ChangerMotPasseActivity"
+            android:label="@string/title_activity_changer_mot_passe" />
+        <activity
+            android:name=".RechercherActivity"
+            android:label="@string/title_activity_rechercher" />
+        <activity
+            android:name=".PreferencesActivity"
+            android:label="@string/title_activity_preferences" />
+        <activity
+            android:name=".ParametresCompteActivity"
+            android:label="@string/title_activity_parametres_compte" />
+        <activity
+            android:name=".ReservationActivity"
+            android:label="@string/title_activity_reservation" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" />
+        <activity
+            android:name=".ReservationRareActivity"
+            android:label="@string/title_activity_reservation_rare" />
+        <activity
+            android:name=".FaireReservationActivity"
+            android:label="@string/title_activity_faire_reservation" />
+        <activity
+            android:name=".FaireReservationRareActivity"
+            android:label="@string/title_activity_faire_reservation_rare" />
+        <activity
+            android:name=".modalPeriodeActivity"
+            android:label="@string/title_activity_modal_periode" />
+        <activity
+            android:name=".modalDateActivity"
+            android:label="@string/title_activity_modal_date"></activity>
     </application>
 
 </manifest>
