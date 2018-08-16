@@ -24,7 +24,7 @@
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_margin="15dp"
-        android:background="@mipmap/logoBibli" />
+        android:background="@mipmap/logo_bibli" />
 
     <View
         android:id="@+id/LogoGovSplash"
@@ -32,6 +32,6 @@
         android:layout_height="40dp"
         android:layout_gravity="bottom"
         android:layout_margin="15dp"
-        android:background="@mipmap/logoGov" />
+        android:background="@mipmap/logo_gov" />
 
 </android.support.design.widget.CoordinatorLayout>
