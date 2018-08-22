@@ -1,13 +1,13 @@
 package com.jcneto.bibliothequemobile;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class RechercheActivityLivre extends Activity{
+public class RechercherLivreRare extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recherche_livre);
+        setContentView(R.layout.activity_rechercher_livre_rare);
     }
 }

@@ -23,67 +23,61 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ChangerMotPasseActivity"
             android:label="@string/title_activity_changer_mot_passe"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RechercherActivity"
             android:label="@string/title_activity_rechercher"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PreferencesActivity"
             android:label="@string/title_activity_preferences"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ParametresCompteActivity"
             android:label="@string/title_activity_parametres_compte"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ReservationActivity"
             android:label="@string/title_activity_reservation"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity_homeO"
             android:label="MenuHome"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ReservationRareActivity"
             android:label="@string/title_activity_reservation_rare"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".FaireReservationActivity"
             android:label="@string/title_activity_faire_reservation"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".FaireReservationRareActivity"
             android:label="@string/title_activity_faire_reservation_rare"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".modalPeriodeActivity"
             android:label="@string/title_activity_modal_periode"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".modalDateActivity"
             android:label="@string/title_activity_modal_date"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".RechercheActivityLivre"
-            android:label="ActivityLivre"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".RechercheLivreRare"
-            android:label="ActivityRare"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".rechercherLivre" />
+        <activity android:name=".RechercherLivreRare"></activity>
     </application>
 
 </manifest>
