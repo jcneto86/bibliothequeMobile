@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/editTextRechercheRechercheLivre"
+        android:layout_width="303dp"
+        android:layout_height="43dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Entrer le Titre du livre ou le nom de son auteur"
+        android:inputType="textPersonName"
+        android:textColor="@android:drawable/ic_btn_speak_now"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonListeDeLivrerRechercheLivre"
+        android:layout_width="188dp"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:text="Liste de Livres"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/buttonLivresRaresRechercheLivre"
+        android:layout_width="182dp"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:text="Livres Rares"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <GridView
+        android:id="@+id/_dynamicRechercheLivre"
+        android:layout_width="368dp"
+        android:layout_height="390dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+</android.support.constraint.ConstraintLayout>

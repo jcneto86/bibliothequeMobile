@@ -6,4 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".modalPeriodeActivity">
 
+    <View
+        android:id="@+id/viewImagedeFondModalPeriode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent4"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textViewdeModalPeriode"
+        android:layout_width="254dp"
+        android:layout_height="56dp"
+        android:background="@color/colorSecondaryLight"
+        android:gravity="center"
+        android:text="Selectioner une période"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <View
+        android:id="@+id/viewFondBlacModalPeriode"
+        android:layout_width="254dp"
+        android:layout_height="167dp"
+        android:background="@android:color/background_light"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonMatinModalPeriode"
+        android:layout_width="136dp"
+        android:layout_height="33dp"
+        android:text="Le matin"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonMidiModalPeriode"
+        android:layout_width="153dp"
+        android:layout_height="31dp"
+        android:text="Aprés-Midi"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="283dp" />
+
 </android.support.constraint.ConstraintLayout>

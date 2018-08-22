@@ -5,4 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".modalDateActivity">
+
+    <View
+        android:id="@+id/viewImadedeFondModalDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent4"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <CalendarView
+        android:id="@+id/calendarViewDeModalDate"
+        android:layout_width="270dp"
+        android:layout_height="363dp"
+        android:backgroundTint="@android:color/background_light"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <View
+        android:id="@+id/viewModal_date"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:background="@color/colorSecondaryLight"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textViewSuprimerModalDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supprimer"
+        android:textColor="@color/colorSecondaryLight"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/textViewOKModalDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textColor="@color/colorSecondaryLight"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="475dp" />
+
 </android.support.constraint.ConstraintLayout>

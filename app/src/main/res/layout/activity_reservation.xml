@@ -6,4 +6,75 @@
     android:layout_height="match_parent"
     tools:context=".ReservationActivity">
 
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageView
+        android:id="@+id/imageViewPhotoReservation"
+        android:layout_width="131dp"
+        android:layout_height="177dp"
+        android:src="?android:attr/autofilledHighlight"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textViewDisponibleReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponible"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textViewNomDuLivreReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom du livre"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textViewAuteurAnneeReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auteur / Année de publication"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textViewResumeReservation"
+        android:layout_width="334dp"
+        android:layout_height="138dp"
+        android:text="Tous les résumés publiés ici sont des résumés de livres exceptionnels, de livres rares et exigeants qui ont tous une énorme qualité : ils peuvent vous faire changer de vie. Attention toutefois, pas de recette miracle ici, chacun de ces livres demande d’agir, d’adopter une démarche proactive et de travailler dur. Si vous réussissez, vous changerez de vie et deviendrez plus heureux."
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/buttonReserverResrvation"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:background="@mipmap/button_bg2"
+        android:text="Réserver"
+        android:textColor="@color/colorAccent3"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:src="@mipmap/fleche"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </android.support.constraint.ConstraintLayout>

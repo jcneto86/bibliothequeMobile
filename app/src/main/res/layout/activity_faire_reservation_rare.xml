@@ -6,4 +6,104 @@
     android:layout_height="match_parent"
     tools:context=".FaireReservationRareActivity">
 
+    <ImageView
+        android:id="@+id/imageViewPhotoLivreReservationRee"
+        android:layout_width="115dp"
+        android:layout_height="147dp"
+        android:background="@color/colorPrimaryLight"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom du livre"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auteur / Année de publication"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <TextView
+        android:id="@+id/textViewResumeReservationRare"
+        android:layout_width="334dp"
+        android:layout_height="138dp"
+        android:text="Tous les résumés publiés ici sont des résumés de livres exceptionnels, de livres rares et exigeants qui ont tous une énorme qualité : ils peuvent vous faire changer de vie. Attention toutefois, pas de recette miracle ici, chacun de ces livres demande d’agir, d’adopter une démarche proactive et de travailler dur. Si vous réussissez, vous changerez de vie et deviendrez plus heureux."
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/buttonEnvoyerReservationRare"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:background="@mipmap/button_bg2"
+        android:text="Envoyer"
+        android:textColor="@color/colorAccent3"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <Button
+        android:id="@+id/buttonAnnulerResrvationRare"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:background="@mipmap/button_bg1"
+        android:text="Annuler"
+        android:textColor="@color/colorAccent3"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <EditText
+        android:id="@+id/editTextDateReservationRare"
+        android:layout_width="176dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <EditText
+        android:id="@+id/editTextPeriodeResrvationRare"
+        android:layout_width="103dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <TextView
+        android:id="@+id/textViewPourReservationRare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pour"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textViewPeriodeReservationRare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Période"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <ImageView
+        android:id="@+id/imageViewEtoileReservationRare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+
 </android.support.constraint.ConstraintLayout>

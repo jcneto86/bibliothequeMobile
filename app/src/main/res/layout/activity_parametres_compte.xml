@@ -6,4 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".ParametresCompteActivity">
 
+    <ImageView
+        android:id="@+id/imageViewPhotoParametreCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_personne"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textViewCourielParametreCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Couriel"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/buttonChangerMPParametreCompte"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:background="@mipmap/button_bg2"
+        android:text="Changer de mot de passe"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Button
+        android:id="@+id/buttonDeconnecterParametres"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:background="@mipmap/button_bg1"
+        android:text="Se déconnecter"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <EditText
+        android:id="@+id/editTextParametresComptes"
+        android:layout_width="302dp"
+        android:layout_height="52dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Votre email: @email.com"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <View
+        android:id="@+id/viewCouleurParametre"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageViewFlechRetourParametreCompte"
+        android:layout_width="49dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/fleche"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
